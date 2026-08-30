@@ -1,0 +1,150 @@
+{
+ "Image 3": {
+  "file": "Urban Burp Cloths (Basic) Image 3.psd",
+  "container": "BIB",
+  "bbox": [
+   -1276,
+   -494,
+   4196,
+   3242
+  ],
+  "current_hex": "#A3B791",
+  "Y0": 172.1,
+  "target": "Summit Blue",
+  "target_hex": "#5F7C8C",
+  "target_rgb": [
+   95,
+   124,
+   140
+  ],
+  "Y1": 117.1,
+  "gamma": 0.505,
+  "opaque_px": 857532
+ },
+ "Image 4": {
+  "file": "Urban Burp Cloths (Basic) Image 4.psd",
+  "container": "Burp Cloth from main",
+  "bbox": [
+   1324,
+   806,
+   2256,
+   2829
+  ],
+  "current_hex": "#C9B8AC",
+  "Y0": 187.5,
+  "target": "Ridge Olive",
+  "target_hex": "#6A7358",
+  "target_rgb": [
+   106,
+   115,
+   88
+  ],
+  "Y1": 109.3,
+  "gamma": 0.3633,
+  "opaque_px": 1603998
+ },
+ "Image 5B": {
+  "file": "Urban Burp Cloths (Basic) Image 5B.psd",
+  "container": "Burp Cloth",
+  "bbox": [
+   -1215,
+   -884,
+   5438,
+   3852
+  ],
+  "current_hex": "#D0CCC6",
+  "Y0": 204.1,
+  "target": "Limestone",
+  "target_hex": "#C8BAAF",
+  "target_rgb": [
+   200,
+   186,
+   175
+  ],
+  "Y1": 189.0,
+  "gamma": 0.7439,
+  "opaque_px": 998066
+ },
+ "Image 6": {
+  "file": "Urban Burp Cloths (Basic) Image 6.psd",
+  "container": "Product",
+  "bbox": [
+   -724,
+   -304,
+   4720,
+   3320
+  ],
+  "current_hex": "#F0DDC1",
+  "Y0": 223.2,
+  "target": "Summit Blue",
+  "target_hex": "#5F7C8C",
+  "target_rgb": [
+   95,
+   124,
+   140
+  ],
+  "Y1": 117.1,
+  "gamma": 0.1713,
+  "opaque_px": 587631
+ },
+ "Image 7": {
+  "file": "Urban Burp Cloths (Basic) Image 7.psd",
+  "container": "product",
+  "bbox": [
+   -940,
+   -637,
+   6696,
+   4444
+  ],
+  "current_hex": "#9EB48F",
+  "Y0": 169.2,
+  "target": "Granite",
+  "target_hex": "#938279",
+  "target_rgb": [
+   147,
+   130,
+   121
+  ],
+  "Y1": 134.1,
+  "gamma": 0.638,
+  "opaque_px": 604335
+ },
+ "Image 8": {
+  "file": "Urban Burp Cloths (Basic) Image 8.psd",
+  "container": "product",
+  "bbox": [
+   -598,
+   0,
+   3724,
+   3000
+  ],
+  "current_hex": "#BBC6D6",
+  "Y0": 196.1,
+  "target": "Trailhead Taupe",
+  "target_hex": "#97806E",
+  "target_rgb": [
+   151,
+   128,
+   110
+  ],
+  "Y1": 132.9,
+  "gamma": 0.4029,
+  "opaque_px": 1052948
+ },
+ "Image 2": {
+  "kind": "smartobject",
+  "container": "Burp Cloth 2",
+  "current_hex": "#C2CBD8",
+  "Y0": 201.6,
+  "target": "Granite",
+  "target_hex": "#938279",
+  "target_rgb": [
+   147,
+   130,
+   121
+  ],
+  "Y1": 134.1,
+  "gamma": 0.3658,
+  "provisional": false
+ }
+}

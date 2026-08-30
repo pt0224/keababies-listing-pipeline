@@ -1,0 +1,314 @@
+{
+ "client": "KeaBabies",
+ "category": "Feed",
+ "product": {
+  "name": "Urban Burp Cloths",
+  "name_fr": "Urban chiffons de rot",
+  "pack": 5,
+  "amazon_asin": "B0814QNTL6",
+  "amazon_url": "https://www.amazon.com/dp/B0814QNTL6?th=1",
+  "size_in": "21 x 10",
+  "size_cm": "53 x 25",
+  "age_range": "0-12 months"
+ },
+ "colorway": {
+  "name": "Atlas",
+  "status": "PROPOSED - awaiting Paul/client confirmation",
+  "note": "Client brief read 'Variant Colors: Atlast,' (truncated). 'Atlas' is not in the 47 existing KeaBabies colourway names, so it is treated as a NEW colourway set name. Mountain/range theme matches the Urban Burp Cloths kraft box artwork.",
+  "source_reference": "Resources/Product Color Reference 5 Variants/Product Color Reference  5 Variants.jpg",
+  "sampling_method": "median of two sample bands per panel, interior of each cloth, away from piped edge / overlap shadow / centre seam; sRGB 8-bit"
+ },
+ "variants": [
+  {
+   "position": 1,
+   "slug": "summit-blue",
+   "name": "Summit Blue",
+   "alt_names": [
+    "Alpine Blue",
+    "Dusk Blue",
+    "Denim"
+   ],
+   "family": "blue",
+   "hex": "#5F7C8C",
+   "rgb": [
+    95,
+    124,
+    140
+   ],
+   "cmyk": [
+    32,
+    11,
+    0,
+    45
+   ],
+   "lab": [
+    50.38,
+    -6.31,
+    -12.04
+   ],
+   "hsl": [
+    201,
+    19,
+    46
+   ],
+   "sample_std_rgb": [
+    7.5,
+    5.7,
+    4.9
+   ],
+   "sample_p10_rgb": [
+    90,
+    119,
+    135
+   ],
+   "sample_p90_rgb": [
+    99,
+    128,
+    144
+   ],
+   "band_max_channel_delta": 4,
+   "confidence": "high"
+  },
+  {
+   "position": 2,
+   "slug": "limestone",
+   "name": "Limestone",
+   "alt_names": [
+    "Basecamp Sand",
+    "Oat",
+    "Ecru"
+   ],
+   "family": "cream",
+   "hex": "#C8BAAF",
+   "rgb": [
+    200,
+    186,
+    175
+   ],
+   "cmyk": [
+    0,
+    7,
+    12,
+    22
+   ],
+   "lab": [
+    76.37,
+    3.08,
+    7.35
+   ],
+   "hsl": [
+    26,
+    17,
+    74
+   ],
+   "sample_std_rgb": [
+    9.3,
+    8.4,
+    9.3
+   ],
+   "sample_p10_rgb": [
+    193,
+    179,
+    166
+   ],
+   "sample_p90_rgb": [
+    206,
+    192,
+    181
+   ],
+   "band_max_channel_delta": 8,
+   "confidence": "high"
+  },
+  {
+   "position": 3,
+   "slug": "ridge-olive",
+   "name": "Ridge Olive",
+   "alt_names": [
+    "Pine Ridge",
+    "Fern",
+    "Moss"
+   ],
+   "family": "green",
+   "hex": "#6A7358",
+   "rgb": [
+    106,
+    115,
+    88
+   ],
+   "cmyk": [
+    8,
+    0,
+    23,
+    55
+   ],
+   "lab": [
+    47.01,
+    -8.59,
+    13.84
+   ],
+   "hsl": [
+    80,
+    13,
+    40
+   ],
+   "sample_std_rgb": [
+    6.4,
+    6.2,
+    5.9
+   ],
+   "sample_p10_rgb": [
+    99,
+    108,
+    81
+   ],
+   "sample_p90_rgb": [
+    113,
+    122,
+    95
+   ],
+   "band_max_channel_delta": 3,
+   "confidence": "high"
+  },
+  {
+   "position": 4,
+   "slug": "trailhead-taupe",
+   "name": "Trailhead Taupe",
+   "alt_names": [
+    "Canyon Clay",
+    "Mocha",
+    "Cocoa"
+   ],
+   "family": "taupe",
+   "hex": "#97806E",
+   "rgb": [
+    151,
+    128,
+    110
+   ],
+   "cmyk": [
+    0,
+    15,
+    27,
+    41
+   ],
+   "lab": [
+    55.22,
+    5.92,
+    13.05
+   ],
+   "hsl": [
+    26,
+    16,
+    51
+   ],
+   "sample_std_rgb": [
+    6.4,
+    6.1,
+    6.2
+   ],
+   "sample_p10_rgb": [
+    145,
+    122,
+    104
+   ],
+   "sample_p90_rgb": [
+    156,
+    133,
+    115
+   ],
+   "band_max_channel_delta": 5,
+   "confidence": "high"
+  },
+  {
+   "position": 5,
+   "slug": "granite",
+   "name": "Granite",
+   "alt_names": [
+    "Stone",
+    "Ash",
+    "Pebble"
+   ],
+   "family": "grey",
+   "hex": "#938279",
+   "rgb": [
+    147,
+    130,
+    121
+   ],
+   "cmyk": [
+    0,
+    12,
+    18,
+    42
+   ],
+   "lab": [
+    55.63,
+    4.9,
+    7.23
+   ],
+   "hsl": [
+    21,
+    10,
+    53
+   ],
+   "sample_std_rgb": [
+    6.1,
+    6.1,
+    6.3
+   ],
+   "sample_p10_rgb": [
+    139,
+    122,
+    113
+   ],
+   "sample_p90_rgb": [
+    154,
+    137,
+    129
+   ],
+   "band_max_channel_delta": 5,
+   "confidence": "high"
+  }
+ ],
+ "separation_check": {
+  "method": "CIEDE2000 on sampled LAB values, computed by scripts/color_separation_check.py",
+  "closest_pair": [
+   "trailhead-taupe",
+   "granite"
+  ],
+  "closest_pair_de2000": 4.12,
+  "note": "Trailhead Taupe (#97806E) and Granite (#938279) are only dE2000 4.12 apart - 'noticeable' but NOT 'clearly distinct'. At Amazon thumbnail size they will read as near-duplicates. Mitigation: in the pack/stack shots (Image 9) always separate them with Limestone or Ridge Olive between; never crop a hero that shows only those two.",
+  "all_other_pairs_de2000_min": 17.0,
+  "verdict": "PASS with one caveat (taupe/granite adjacency)"
+ },
+ "image_map": {
+  "Image 2": "Granite",
+  "Image 3": "Summit Blue",
+  "Image 4": "Ridge Olive",
+  "Image 5B": "Limestone",
+  "Image 6": "Summit Blue",
+  "Image 7": "Granite",
+  "Image 8": "Trailhead Taupe",
+  "Image 9": {
+   "products/1 (top)": "Summit Blue",
+   "products/2": "Ridge Olive",
+   "products/3": "Trailhead Taupe",
+   "products/4": "Granite",
+   "products/5 (bottom)": "Limestone",
+   "box_artwork": "Summit Blue"
+  }
+ },
+ "image_map_provenance": {
+  "source": "colour chips annotated on the client task guide, matched by dE2000 (all < 2.0)",
+  "overrides": [
+   {
+    "image": "Image 3",
+    "from": "Trailhead Taupe",
+    "to": "Summit Blue",
+    "by": "Paul",
+    "date": "2026-08-29",
+    "reason": "client direction; overrides the guide chip"
+   }
+  ]
+ }
+}

@@ -1,0 +1,78 @@
+{
+  "product": {
+    "slug": "urban-burp-cloths",
+    "name": "Urban Burp Cloths",
+    "name_alt": "Urban chiffons de rot",
+    "client": "KeaBabies",
+    "category": "Feed",
+    "pack": 5,
+    "parent_asin": "B0814QNTL6",
+    "amazon_url": "https://www.amazon.com/dp/B0814QNTL6?th=1",
+    "size_in": "21 x 10",
+    "size_cm": "53 x 25",
+    "age_range": "0-12 months",
+    "construction": "3 layers - organic cotton / water-resistant fleece / organic cotton"
+  },
+
+  "paths": {
+    "root": "F:/_KEA WORLD/KEA BABIES/FEED",
+    "masters": "F:/_KEA WORLD/KEA BABIES/FEED/Resources/psd/Listing Images",
+    "guide": "F:/_KEA WORLD/KEA BABIES/FEED/Resources/Guide Instructions  -Task.png",
+    "output": "F:/_KEA WORLD/KEA BABIES/FEED/Output",
+    "master_pattern": "Urban Burp Cloths (Basic) {tag}.psd",
+    "out_pattern": "Urban Burp Cloths ({colorway}) {tag}"
+  },
+
+  "canvas": { "width": 3000, "height": 3000, "mode": "RGB", "depth": 8 },
+
+  "export": { "jpeg_quality": 12, "embed_profile": true, "allow_resize": false },
+
+  "gates": {
+    "de2000_max": 3.0,
+    "stray_pixels_max": 2000,
+    "max_correction_loops": 3
+  },
+
+  "_comment_images": "container = the layer/group that owns the cloth. kind 'smartobject' -> the Method C pair is CLIPPED to it; kind 'group' -> the pair is MOVED to the top inside it and the group's own mask provides containment. Verified 2026-08-29 by stacking audit - do not assume a Color Fill named layer is the cloth hook, several of them grade the BACKGROUND.",
+
+  "images": [
+    { "tag": "Image 2",  "container": "Burp Cloth 2",        "kind": "smartobject", "role": "hero flat / ergonomic diagram" },
+    { "tag": "Image 3",  "container": "BIB",                 "kind": "group",       "role": "lifestyle - figure-8" },
+    { "tag": "Image 4",  "container": "Burp Cloth from main","kind": "smartobject", "role": "3-layer construction diagram",
+      "note": "3 cloths in frame; only the FRONT one is recoloured. Middle must keep reading as water-resistant fleece." },
+    { "tag": "Image 5B", "container": "Burp Cloth",          "kind": "group",       "role": "lifestyle - perfect for",
+      "note": "top child is itself a group ('rims') - the explicit move is mandatory here, see GOTCHAS #1." },
+    { "tag": "Image 6",  "container": "Product",             "kind": "group",       "role": "lifestyle - fast absorption",
+      "note": "a second cloth lives in the 'Back cloth' group and is NOT recoloured by default." },
+    { "tag": "Image 7",  "container": "product",             "kind": "group",       "role": "lifestyle - modern parents" },
+    { "tag": "Image 8",  "container": "product",             "kind": "group",       "role": "lifestyle - gender neutral",
+      "note": "this file drives colour from a Hue/Saturation stack rather than a Color Fill; Method C sits on top of it and wins." },
+    { "tag": "Image 9",  "container": "MULTI",               "kind": "multi",       "role": "packaging + 5-cloth stack",
+      "units": [
+        { "path": ["products", "1 (top)"],    "band": [740, 820, 950, 1800] },
+        { "path": ["products", "base", "Rims (rremove for white rims)", "1"], "mirrors": "products/1 (top)" },
+        { "path": ["products", "2"],          "band": [880, 940, 950, 1800] },
+        { "path": ["products", "base", "Rims (rremove for white rims)", "2"], "mirrors": "products/2" },
+        { "path": ["products", "3"],          "band": [975, 1035, 950, 1800] },
+        { "path": ["products", "base", "Rims (rremove for white rims)", "3"], "mirrors": "products/3" },
+        { "path": ["products", "4"],          "band": [1060, 1120, 950, 1800] },
+        { "path": ["products", "base", "Rims (rremove for white rims)", "4"], "mirrors": "products/4" },
+        { "path": ["products", "5 (bottom)"], "band": [1145, 1200, 950, 1800] },
+        { "path": ["products", "base", "Rims (rremove for white rims)", "5"], "mirrors": "products/5 (bottom)" }
+      ],
+      "note": "layer names repeat between the product groups and the rim groups - ALWAYS address by path, never by name.",
+      "unfinished": "the printed mountain graphic on the kraft box is baked into the photo with no dedicated layer; it needs a colour-range mask bounded to the mountain and excluding the green '5 PACK' badge."
+    }
+  ],
+
+  "untouchables": [
+    "background / backdrop Color Fill layers set to blend NORMAL",
+    "skin tone groups",
+    "the parent's clothing groups",
+    "the woven KeaBabies label",
+    "OEKO-TEX and GOTS badges",
+    "Generative Fill layers",
+    "on-image headline and body copy",
+    "the hidden previous-colourway reference smart object (leave hidden, leave in place)"
+  ]
+}

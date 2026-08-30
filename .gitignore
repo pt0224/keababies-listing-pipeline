@@ -1,0 +1,12 @@
+# generated at runtime
+logs/run_*.jsx
+logs/jsx_*.txt
+__pycache__/
+*.pyc
+output/
+_verify/
+
+# local scratch
+*.tmp
+Thumbs.db
+desktop.ini

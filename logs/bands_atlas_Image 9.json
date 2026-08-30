@@ -1,0 +1,68 @@
+{
+ "products/1 (top)": {
+  "target": "Summit Blue",
+  "rgb": [
+   95,
+   124,
+   140
+  ],
+  "gamma": 0.3117,
+  "cur": "#C1C9D6",
+  "Y0": 200.0
+ },
+ "products/2": {
+  "target": "Ridge Olive",
+  "rgb": [
+   106,
+   115,
+   88
+  ],
+  "gamma": 0.4688,
+  "cur": "#A2B691",
+  "Y0": 171.4
+ },
+ "products/3": {
+  "target": "Trailhead Taupe",
+  "rgb": [
+   151,
+   128,
+   110
+  ],
+  "gamma": 0.5898,
+  "cur": "#BCAA9E",
+  "Y0": 173.6
+ },
+ "products/4": {
+  "target": "Granite",
+  "rgb": [
+   147,
+   130,
+   121
+  ],
+  "gamma": 0.2823,
+  "cur": "#D9D5CC",
+  "Y0": 212.7
+ },
+ "products/5 (bottom)": {
+  "target": "Limestone",
+  "rgb": [
+   200,
+   186,
+   175
+  ],
+  "gamma": 0.4368,
+  "cur": "#EFDDC6",
+  "Y0": 223.7
+ },
+ "box_artwork": {
+  "target": "Summit Blue",
+  "rgb": [
+   95,
+   124,
+   140
+  ],
+  "gamma": 0.4936,
+  "cur": "#A5B891",
+  "Y0": 173.6
+ }
+}
